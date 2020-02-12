@@ -314,7 +314,7 @@ void TTrackFrame::CalcDappDtr(TKalMatrix& dappdtr, TKalMatrix& tr, Double_t drho
                                 Double_t cpasign,    Int_t  mode)
 { 
    Double_t chg  = 1.;   
-   Double_t px, py, pz, dx, dy;
+   Double_t px=0, py=0, pz=0, dx=0, dy=0;
 
    px = tr(0,0);
    py = tr(1,0);
@@ -327,7 +327,7 @@ void TTrackFrame::CalcDappDtr(TKalMatrix& dappdtr, TKalMatrix& tr, Double_t drho
    }
 
    //
-   Double_t dr2, dr, pt, pt2, pt3;
+   Double_t dr2=0, dr=0, pt=0, pt2=0, pt3=0;
 
    if(mode)
    {
