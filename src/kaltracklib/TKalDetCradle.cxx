@@ -76,7 +76,7 @@ void TKalDetCradle::Install(TVKalDetector &det)
     TObject *mlp = 0;  // measment layer pointer
     while ((mlp = next())) {
         Add(mlp);
-        dynamic_cast<TAttElement *>(mlp)->SetParentPtr(&det);
+        dynamic_cast<TAttElement &>(*mlp).SetParentPtr(&det);
         det.SetParentPtr(this);
     }
     fDone = kFALSE;
@@ -401,7 +401,7 @@ int TKalDetCradle::Transport2(const TKalTrackSite  &from,  // site from
 		// helix is defined by local track parameters.
 	    // xx is a global coordinate.
 		// angle fid is difference of direction for pivot and crossing point in a helix.
-		dynamic_cast<TVSurface *>(At(ito))->CalcXingPointWith(hel, xx, fid, mode);
+		dynamic_cast<TVSurface &>(*At(ito)).CalcXingPointWith(hel, xx, fid, mode);
 	}
 	else {
 	    // If ito!=fridx, it means the track will move from the currnt pivot (crossing point)
@@ -411,7 +411,7 @@ int TKalDetCradle::Transport2(const TKalTrackSite  &from,  // site from
 
 		rk.SetFromTrack(hel);
 
-		dynamic_cast<TVSurface *>(At(ito))->CalcXingPointWith(rk, rkxx, step, mode);
+		dynamic_cast<TVSurface &>(*At(ito)).CalcXingPointWith(rk, rkxx, step, mode);
     }
 
     TKalMatrix Qms(sdim, sdim);                                       

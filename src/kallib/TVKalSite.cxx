@@ -172,13 +172,6 @@ TKalMatrix TVKalSite::GetResVec (TVKalSite::EStType t)
    TVKalState &sa = (&GetState(TVKalSite::kSmoothed) != 0
                     ? GetState(TVKalSite::kSmoothed)
                     : GetState(TVKalSite::kFiltered));
-   if (!&a || !&sa) {
-     cerr << ":::::: ERROR in TVKalSite::GetResVec(EStType) " << endl
-          << " Invalid states requested"                      << endl
-          << " &a = " << &a << " &sa = " << &sa               << endl
-          << " Abort!"                                        << endl;
-     ::abort();
-   }
    if (&a == &sa) {
       return fResVec;
    } else {
