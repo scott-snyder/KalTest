@@ -48,7 +48,7 @@ public:
                const Char_t    *name = "TVMeasLayer");
    virtual ~TVMeasLayer() {}
 
-   // Utiliy Methods
+   // Utility Methods
 
    virtual TKalMatrix XvToMv   (const TVTrackHit &ht,
                                 const TVector3   &xv) const = 0;
