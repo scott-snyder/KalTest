@@ -64,5 +64,6 @@ ADD_SUBDIRECTORY( ./examples/kaltest )
 DISPLAY_STD_VARIABLES()
 
 # generate and install following configuration files
-GENERATE_PACKAGE_CONFIGURATION_FILES( KalTestConfig.cmake KalTestConfigVersion.cmake KalTestLibDeps.cmake )
+GENERATE_PACKAGE_CONFIGURATION_FILES( KalTestConfig.cmake KalTestConfigVersion.cmake  )
 
+INSTALL (FILES ${PROJECT_SOURCE_DIR}/cmake/KalTestLibDeps.cmake DESTINATION lib/cmake )
