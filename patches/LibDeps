@@ -1,5 +1,5 @@
 Bottom: 7262332864bde70a8c0ea115bfe78123487a7d8d
-Top:    7262332864bde70a8c0ea115bfe78123487a7d8d
+Top:    95c9915eb0343728002dca53afbf923eb2d37017
 Author: scott snyder <sss@karma>
 Date:   2020-02-12 11:04:13 -0500
 
@@ -8,4 +8,18 @@ LibDeps workaround.
 
 ---
 
-
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4abcabb..62cce94 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -64,5 +64,6 @@ ADD_SUBDIRECTORY( ./examples/kaltest )
+ DISPLAY_STD_VARIABLES()
+ 
+ # generate and install following configuration files
+-GENERATE_PACKAGE_CONFIGURATION_FILES( KalTestConfig.cmake KalTestConfigVersion.cmake KalTestLibDeps.cmake )
++GENERATE_PACKAGE_CONFIGURATION_FILES( KalTestConfig.cmake KalTestConfigVersion.cmake  )
+ 
++INSTALL (FILES ${PROJECT_SOURCE_DIR}/cmake/KalTestLibDeps.cmake DESTINATION lib/cmake )
+diff --git a/cmake/KalTestLibDeps.cmake b/cmake/KalTestLibDeps.cmake
+new file mode 100644
+index 0000000..e69de29
