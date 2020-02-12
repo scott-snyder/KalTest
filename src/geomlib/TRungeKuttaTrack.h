@@ -70,6 +70,12 @@ public:
    void SetFromTrack(THelicalTrack& heltrack);
 
    // Utility methods
+   virtual void MoveTo(const TVector3 &,
+                             Double_t &,
+                             TMatrixD *,
+                             TMatrixD *,
+                             Bool_t   )
+  { std::abort(); }
    virtual void MoveTo(const TVector3 &globalPivot, 
                              Double_t &step,     
 		                     TMatrixD  *FPtr = 0,    

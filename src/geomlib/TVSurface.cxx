@@ -128,6 +128,6 @@ Int_t TVSurface::CalcXingPointWith(const TVTrack  &hel,
 Int_t TVSurface::Compare(const TObject *obj) const
 {
    Double_t me  = GetSortingPolicy();
-   Double_t you = dynamic_cast<const TVSurface *>(obj)->GetSortingPolicy();
+   Double_t you = dynamic_cast<const TVSurface &>(*obj).GetSortingPolicy();
    return me < you ? -1 : (me > you ? +1 : 0);
 }
