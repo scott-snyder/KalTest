@@ -73,6 +73,7 @@ public:
    inline virtual TVKalState & GetCurState ()       { return *fCurStatePtr; }
    inline virtual TVKalState & GetCurState () const { return *fCurStatePtr; }
    inline virtual TVKalState & GetState (EStType t);
+   inline virtual TVKalState * GetStatePtr (EStType t);
    inline virtual TKalMatrix & GetMeasVec      ()   { return fM;            }
    inline virtual TKalMatrix & GetMeasNoiseMat ()   { return fV;            }
    inline virtual TKalMatrix & GetResVec       ()   { return fResVec;       }
@@ -121,5 +122,14 @@ TVKalState & TVKalSite::GetState(TVKalSite::EStType t)
       ap = static_cast<TVKalState *>(UncheckedAt(t));
    }
    return *ap;
+}
+
+TVKalState * TVKalSite::GetStatePtr(TVKalSite::EStType t)
+{
+   TVKalState *ap = 0;
+   if (t >= 0 && t < GetEntries()) {
+      ap = static_cast<TVKalState *>(UncheckedAt(t));
+   }
+   return ap;
 }
 #endif

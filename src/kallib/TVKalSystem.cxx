@@ -102,8 +102,8 @@ void TVKalSystem::SmoothBackTo(Int_t k)
    TVKalSite  *prePtr;
    TVKalSite  *curPtr = static_cast<TVKalSite *>(cur());
    TVKalState &cura   = curPtr->GetState(TVKalSite::kFiltered);
-   TVKalState &scura  = curPtr->GetState(TVKalSite::kSmoothed); 
-   if (!&scura) {
+   TVKalState *scura  = curPtr->GetStatePtr(TVKalSite::kSmoothed);
+   if (!scura) {
       curPtr->Add(&curPtr->CreateState(cura, cura.GetCovMat(),
                                        TVKalSite::kSmoothed));
    }
