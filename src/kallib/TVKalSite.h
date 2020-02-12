@@ -72,11 +72,8 @@ public:
    inline virtual Int_t        GetDimension() const { return fM.GetNrows(); }
    inline virtual TVKalState & GetCurState ()       { return *fCurStatePtr; }
    inline virtual TVKalState & GetCurState () const { return *fCurStatePtr; }
-   inline virtual TVKalState & GetState    (EStType t);
-#if 0
-#else
+   inline virtual TVKalState & GetState (EStType t);
    inline virtual TVKalState * GetStatePtr (EStType t);
-#endif
    inline virtual TKalMatrix & GetMeasVec      ()   { return fM;            }
    inline virtual TKalMatrix & GetMeasNoiseMat ()   { return fV;            }
    inline virtual TKalMatrix & GetResVec       ()   { return fResVec;       }
