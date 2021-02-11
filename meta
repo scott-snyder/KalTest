@@ -1,8 +1,9 @@
 Version: 1
-Previous: 5b53967aced3686f04c46e6182d4cb13683bc8c3
-Head: 5110678f49a2557c5445e47020c641c920ac7e01
+Previous: ef24dc71b5083ddb47f28c7cc2853ac6a9107fb7
+Head: 6cc40b9fe27d0c24cfbe7bc1e92796359f583b4b
 Applied:
   LibDeps: 843d3e5aadfa35b9d91828b9c773e79e13f14941
   warn.KalTest: 5110678f49a2557c5445e47020c641c920ac7e01
+  gitignore: 6cc40b9fe27d0c24cfbe7bc1e92796359f583b4b
 Unapplied:
 Hidden:
