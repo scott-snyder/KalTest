@@ -60,6 +60,8 @@ public:
                            TKalMatrix	&F, 
                            TKalMatrix &Q) const;
 
+  using TKalMatrix::DebugPrint;
+  virtual void  DebugPrint(std::ostream&, Option_t *, Int_t  ) const { std::abort(); }
   void         DebugPrint() const ;
   void         DebugPrint( std::ostream& os ) const;
 
