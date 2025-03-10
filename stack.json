@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "2a5b3d43b07aa2dc535e0591e5b54a514b673e71",
-  "head": "f9a2a4579f76cf77bc831283570585ef14e26b07",
+  "prev": "6f1e6dfcd7344674684cb93bfedb330a0305dab7",
+  "head": "542121a65d504eb38700ef13cc7cac5ee2d6c36e",
   "applied": [
     "gitignore",
-    "LibDeps"
-  ],
-  "unapplied": [
+    "LibDeps",
     "warn.KalTest"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "LibDeps": {
