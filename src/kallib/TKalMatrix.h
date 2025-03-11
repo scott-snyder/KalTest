@@ -48,7 +48,7 @@ public:
 
    TKalMatrix(const TRotation &r);
 
-  TKalMatrix& operator= (const TKalMatrix &orig) = default;
+   TKalMatrix& operator= (const TKalMatrix &orig) = default;
 
    virtual ~TKalMatrix() {}
 
