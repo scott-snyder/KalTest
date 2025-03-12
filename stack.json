@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "960eddfc345785417910283ebcef3f0797a49280",
-  "head": "de6f1ea8fbdb889c78ad0c244cd3ff4ae26f670a",
+  "prev": "66e4fb8f318697e5a620280e927c6d6fc1375ea3",
+  "head": "ee2b24b4935058aa8894b0d1079c13e04668f94b",
   "applied": [
     "gitignore",
     "LibDeps",
@@ -17,7 +17,7 @@
       "oid": "1ef0b1f769b27cafeaf1621ea26b35b4953b4a48"
     },
     "warn.KalTest": {
-      "oid": "de6f1ea8fbdb889c78ad0c244cd3ff4ae26f670a"
+      "oid": "ee2b24b4935058aa8894b0d1079c13e04668f94b"
     }
   }
 }
