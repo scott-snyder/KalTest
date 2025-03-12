@@ -1,0 +1,8 @@
+Bottom: b8fe3860ffb9be1ef7783098aecac27d0fda84b4
+Top:    b8fe3860ffb9be1ef7783098aecac27d0fda84b4
+Author: sss <sss@karma>
+Date:   2025-03-12 15:06:49 -0400
+
+Update CI definition.
+
+Remove centos7 build from CI.

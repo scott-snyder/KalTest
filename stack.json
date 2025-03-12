@@ -1,17 +1,21 @@
 {
   "version": 5,
-  "prev": "66e4fb8f318697e5a620280e927c6d6fc1375ea3",
-  "head": "ee2b24b4935058aa8894b0d1079c13e04668f94b",
+  "prev": "854894586f70afdb531d49a7008a3605290d9c03",
+  "head": "cf2ff90a035bd2727d5f1069bcd5b176e8eea50e",
   "applied": [
     "gitignore",
     "LibDeps",
-    "warn.KalTest"
+    "warn.KalTest",
+    "ci"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "LibDeps": {
       "oid": "f9a2a4579f76cf77bc831283570585ef14e26b07"
+    },
+    "ci": {
+      "oid": "cf2ff90a035bd2727d5f1069bcd5b176e8eea50e"
     },
     "gitignore": {
       "oid": "1ef0b1f769b27cafeaf1621ea26b35b4953b4a48"
