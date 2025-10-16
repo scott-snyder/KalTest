@@ -1,0 +1,10 @@
+Bottom: dbd0d70bf2032f07203c2a0a9a2084b371c3b622
+Top:    dbd0d70bf2032f07203c2a0a9a2084b371c3b622
+Author: sss <sss@karma>
+Date:   2025-10-16 11:05:36 -0400
+
+Fix some clang warnings.
+
+Explicitly request default copy ctor/assignment in THelicalTrack/TVTrack.
+Since these have user-defined dtors, they are otherwise deprecated.
+Fixes warnings seen in building k4Reco with clang.
