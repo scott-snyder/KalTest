@@ -13,7 +13,7 @@ jobs:
             image: ubuntu24
           - build_type: release
             image: ubuntu22
-     fail-fast: false
+      fail-fast: false
 
     steps:
     - uses: actions/checkout@v4
