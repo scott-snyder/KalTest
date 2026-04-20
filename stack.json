@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "557cb0581189726477d79d71e622a55eb33728a2",
-  "head": "9b9b9144ea95aeafb15fe6eae297f9d34598fe53",
+  "prev": "1a842dfcaa28deefb2914d0a825b5bf6681225fd",
+  "head": "aa191bc148bc343b86b541e0c0c8e32a9fdab1bf",
   "applied": [
     "ci",
     "warn",
-    "ci2",
-    "refresh-temp"
+    "ci2"
   ],
   "unapplied": [
     "cmakewarn",
@@ -23,7 +22,7 @@
       "oid": "de5b920597e0e4a2c85bb7456aedac37b365dc92"
     },
     "ci2": {
-      "oid": "2ac35506fc7d0f571b06a0dd29068280e9c2d3e9"
+      "oid": "aa191bc148bc343b86b541e0c0c8e32a9fdab1bf"
     },
     "clang": {
       "oid": "c1c7ebce5f5051e34990b9fab19ae7d7b67c118f"
@@ -33,9 +32,6 @@
     },
     "gitignore": {
       "oid": "1ef0b1f769b27cafeaf1621ea26b35b4953b4a48"
-    },
-    "refresh-temp": {
-      "oid": "9b9b9144ea95aeafb15fe6eae297f9d34598fe53"
     },
     "warn": {
       "oid": "7f4a3efbcc7b0ab71bbd8b6fbe52888f0ceb4bfe"
