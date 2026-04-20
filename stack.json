@@ -1,16 +1,17 @@
 {
   "version": 5,
-  "prev": "428d8432607cf275ea0c98f1424dc3dc767e153b",
-  "head": "bbf771d00e290d00c6baf801e283eb34a0964616",
+  "prev": "dc00503d5203ad00fbb6dc15bad7f1a6dafb4530",
+  "head": "75d2cc4263e1f29b504ecae9c7d3dd865bd7fd64",
   "applied": [
     "gitignore",
     "LibDeps",
     "ci",
     "warn",
-    "cmakewarn",
+    "cmakewarn"
+  ],
+  "unapplied": [
     "clang"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "LibDeps": {
