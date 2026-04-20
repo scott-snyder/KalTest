@@ -8,7 +8,7 @@ jobs:
       matrix:
         build_type: ["release", "nightly"]
         image: ["alma9"]
-         include:
+        include:
           - build_type: nightly
             image: ubuntu24
           - build_type: release
