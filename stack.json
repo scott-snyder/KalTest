@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "20f2639ae43ee57365bc0ae857078610b2f6f48c",
-  "head": "1a41489ccce18f1cd794700f625d03b38aa04c15",
-  "applied": [],
+  "prev": "092c03b8af7807b14e975786f279ad50cd37567b",
+  "head": "de5b920597e0e4a2c85bb7456aedac37b365dc92",
+  "applied": [
+    "ci"
+  ],
   "unapplied": [
-    "ci",
     "warn",
     "ci2",
     "clang",
