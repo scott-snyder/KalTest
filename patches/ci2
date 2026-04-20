@@ -1,6 +1,0 @@
-Bottom: 34dae10a5d6b6909fc3860d15714587c7d73dd13
-Top:    8edefde60ac1c840bec1b41e19f7623c4f06f7bc
-Author: sss <sss@karma>
-Date:   2026-04-20 17:05:01 -0400
-
-CI fix: nightly needs to use ubuntu24 instead of 22.
