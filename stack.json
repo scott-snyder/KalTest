@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "5347d642a7fedca0f1fe3091406074b607c3878b",
-  "head": "f8066c56b0a562751470d9095137f834cada7e2e",
+  "prev": "67f41875c34ce952d6fb2e5c92506492bea608a4",
+  "head": "aa191bc148bc343b86b541e0c0c8e32a9fdab1bf",
   "applied": [
     "ci",
     "warn",
-    "ci2",
-    "cmakewarn"
+    "ci2"
   ],
   "unapplied": [
+    "cmakewarn",
     "gitignore",
     "LibDeps",
     "clang"
