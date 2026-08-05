@@ -1,9 +1,0 @@
-Bottom: 99cb039d674e8df2ef71044dc454fe39c1d94fbf
-Top:    99cb039d674e8df2ef71044dc454fe39c1d94fbf
-Author: sss <sss@karma>
-Date:   2026-08-05 14:14:23 -0400
-
-CI fixes
-
-Remove centos7 build from CI; we no longer have centos7 builds.
-Nightly needs to use ubuntu24 instead of 22.
