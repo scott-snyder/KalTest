@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "b5571023b786e16a96264fe9bf90831044718e60",
-  "head": "5bcd7db13ad79da4c2151d6025385bd12fa91232",
+  "prev": "64a7e22e03736a5c69719e5a750f5da629aaef5c",
+  "head": "04c1e26fd8d5e506bf585721294cca9d70391126",
   "applied": [
     "ci",
     "typo"
@@ -30,7 +30,7 @@
       "oid": "5c129e592371c170017ee43bd6839e0049ba0950"
     },
     "typo": {
-      "oid": "5bcd7db13ad79da4c2151d6025385bd12fa91232"
+      "oid": "04c1e26fd8d5e506bf585721294cca9d70391126"
     }
   }
 }

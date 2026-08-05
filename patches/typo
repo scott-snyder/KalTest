@@ -1,13 +1,6 @@
 Bottom: 99cb039d674e8df2ef71044dc454fe39c1d94fbf
 Top:    0134358ca21d30ef245c0f026a65efbc4510636a
 Author: scott snyder <sss@karma>
-Date:   2026-08-05 14:16:59 -0400
+Date:   2026-08-05 14:17:07 -0400
 
-Fix a number of compilation warnings:
-
- - The TEveTrackPropagator base of TRKTrack does not have a public copy ctor.
-   So we should delete the copy ctor in the derived class, not default it.
- - Similarly, give TTrackFrame and TKalMatrix a explicitly-defaulted assignment
-   operators, since they have copy constructors.
- - Explicitly mark fallthrough in a switch statement.
- - Avoid warnings about hiding virtual functions from a base class.
+Fix typo in comments.
